@@ -1276,6 +1276,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:PY32F002AW15U6TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2077,12 +2372,6 @@
 		(uuid "1bb248f6-0260-4ace-a1f5-a12144e9724a")
 	)
 	(junction
-		(at 226.06 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ed5b32c-1fc9-43e0-a5dd-fe0639a9823b")
-	)
-	(junction
 		(at 86.36 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,6 +2508,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50547dbf-3b53-4bbf-ad38-d6f376904a4b")
+	)
+	(junction
+		(at 52.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51e72864-b29e-4a8e-a333-043f82359f66")
 	)
 	(junction
 		(at 55.88 147.32)
@@ -2455,12 +2750,6 @@
 		(uuid "95c547b7-abe8-4d56-a90d-bd2bc5b89b08")
 	)
 	(junction
-		(at 226.06 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9676f0ec-cc58-4a2f-9d63-fde55c95ad72")
-	)
-	(junction
 		(at 66.04 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2489,12 +2778,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd1c42f-5d35-4165-9932-26fdb612dee9")
-	)
-	(junction
-		(at 226.06 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7523bfa-c6a2-4138-af80-4526ed9841c7")
 	)
 	(junction
 		(at 66.04 86.36)
@@ -2609,6 +2892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad9cafe-00c0-4416-8cee-ba51bbe47b99")
+	)
+	(junction
+		(at 170.18 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0b4f51e-e30a-417a-92f5-3f3ff09e7bd4")
 	)
 	(junction
 		(at 76.2 96.52)
@@ -2954,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 128.27) (xy 222.25 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1269400c-704d-4cdd-b177-4b4bfbbb3f7e")
+	)
+	(wire
+		(pts
 			(xy 86.36 106.68) (xy 86.36 125.73)
 		)
 		(stroke
@@ -3051,6 +3350,16 @@
 			(type default)
 		)
 		(uuid "182ed00d-ab10-433f-bdfe-9b640145ed11")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 59.69 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18bd06ab-e981-4c94-9e65-c14cf0a0bce4")
 	)
 	(wire
 		(pts
@@ -3514,16 +3823,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 121.92) (xy 226.06 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3994312c-a5af-42e6-95ae-6efe604b7a96")
-	)
-	(wire
-		(pts
 			(xy 63.5 48.26) (xy 64.77 48.26)
 		)
 		(stroke
@@ -3611,16 +3910,6 @@
 			(type default)
 		)
 		(uuid "44a632c0-060b-4568-ab94-adcb47caa14c")
-	)
-	(wire
-		(pts
-			(xy 226.06 113.03) (xy 226.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44faca90-7c64-4df0-923d-49322fdaa902")
 	)
 	(wire
 		(pts
@@ -3944,6 +4233,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 31.75) (xy 170.18 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b8b6c2-3749-473d-a4b2-d0d5ecd5dd2c")
+	)
+	(wire
+		(pts
 			(xy 96.52 96.52) (xy 92.71 96.52)
 		)
 		(stroke
@@ -4001,6 +4300,16 @@
 			(type default)
 		)
 		(uuid "6414b53f-cfa7-4ebc-a298-bca99b7bcde7")
+	)
+	(wire
+		(pts
+			(xy 222.25 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660e3cd0-08f4-4ce3-a64e-6628b62aae01")
 	)
 	(wire
 		(pts
@@ -4734,6 +5043,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 30.48) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1ff25f-e920-496b-9a1d-3b80aee3452d")
+	)
+	(wire
+		(pts
 			(xy 55.88 106.68) (xy 52.07 106.68)
 		)
 		(stroke
@@ -4794,6 +5113,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 31.75) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe3bf05-6c93-4217-a45e-c177bdee08d5")
+	)
+	(wire
+		(pts
+			(xy 162.56 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad036f22-a278-407e-bde5-16e0cccd8783")
+	)
+	(wire
+		(pts
 			(xy 66.04 157.48) (xy 62.23 157.48)
 		)
 		(stroke
@@ -4801,6 +5140,16 @@
 			(type default)
 		)
 		(uuid "ae551079-bf0a-44aa-8205-143ef6d61b43")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 161.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae744818-b1f8-4f14-b4d8-543e6e248606")
 	)
 	(wire
 		(pts
@@ -5094,16 +5443,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 130.81) (xy 226.06 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6298369-e550-44ad-b55d-f2f9836ee1ea")
-	)
-	(wire
-		(pts
 			(xy 96.52 137.16) (xy 96.52 147.32)
 		)
 		(stroke
@@ -5364,6 +5703,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 113.03) (xy 214.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db872e3f-cef2-4fc0-9077-0dbb43d406af")
+	)
+	(wire
+		(pts
 			(xy 102.87 115.57) (xy 113.03 115.57)
 		)
 		(stroke
@@ -5614,6 +5963,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 113.03) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe66fab-f1be-4787-9e1c-f37723c218b0")
+	)
+	(wire
+		(pts
 			(xy 96.52 86.36) (xy 92.71 86.36)
 		)
 		(stroke
@@ -5761,16 +6120,6 @@
 			(type default)
 		)
 		(uuid "fcedd426-1261-4d8b-9f49-5e9ba09cf8a6")
-	)
-	(wire
-		(pts
-			(xy 226.06 104.14) (xy 226.06 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf70e86-fe21-4683-a1e5-283ca4b4f9a3")
 	)
 	(wire
 		(pts
@@ -5977,6 +6326,17 @@
 		)
 		(uuid "72163153-36c2-42ab-8811-42e00a0fe174")
 	)
+	(label "BUT"
+		(at 214.63 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74cd5db2-80d7-49f0-99fe-adfb19751e82")
+	)
 	(label "LED1"
 		(at 55.88 50.8 180)
 		(fields_autoplaced yes)
@@ -6131,6 +6491,17 @@
 		)
 		(uuid "d5efc169-a2de-4991-b530-f1d66153cab0")
 	)
+	(label "BUT"
+		(at 59.69 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1b68d54-93aa-4c78-9a8d-f0f41c179098")
+	)
 	(label "LED4"
 		(at 39.37 135.89 180)
 		(fields_autoplaced yes)
@@ -6182,7 +6553,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 110.49 0)
 			(effects
 				(font
@@ -6209,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 110.49 0)
 			(effects
 				(font
@@ -6218,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 110.49 0)
 			(effects
 				(font
@@ -6237,6 +6608,91 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 167.64 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "027a121c-b9a2-4f40-9748-96dec90e1f0a")
+		(property "Reference" "Q0"
+			(at 172.847 39.3122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 172.847 36.8879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 172.72 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 172.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9edb5d9a-0d93-4b81-bcb0-92c8beb1559c")
+		)
+		(pin "2"
+			(uuid "de7e56b3-7635-45b3-94fd-c393533d3231")
+		)
+		(pin "1"
+			(uuid "55e32030-c91a-4afc-a208-0f4965616dcc")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "Q0")
 					(unit 1)
 				)
 			)
@@ -6303,7 +6759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 105.41 53.34 0)
 			(effects
 				(font
@@ -6356,7 +6812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -6383,7 +6839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -6392,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -6445,7 +6901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 151.13 0)
 			(effects
 				(font
@@ -6472,7 +6928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 151.13 0)
 			(effects
 				(font
@@ -6481,7 +6937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 151.13 0)
 			(effects
 				(font
@@ -6534,7 +6990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -6561,7 +7017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -6570,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 90.17 0)
 			(effects
 				(font
@@ -6623,7 +7079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 161.29 0)
 			(effects
 				(font
@@ -6650,7 +7106,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 161.29 0)
 			(effects
 				(font
@@ -6659,7 +7115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 161.29 0)
 			(effects
 				(font
@@ -6712,7 +7168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 140.97 0)
 			(effects
 				(font
@@ -6739,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 140.97 0)
 			(effects
 				(font
@@ -6748,7 +7204,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 140.97 0)
 			(effects
 				(font
@@ -6801,7 +7257,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -6828,7 +7284,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -6837,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -6890,7 +7346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -6917,7 +7373,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -6926,7 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -6979,7 +7435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 130.81 0)
 			(effects
 				(font
@@ -7006,7 +7462,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 130.81 0)
 			(effects
 				(font
@@ -7015,7 +7471,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 130.81 0)
 			(effects
 				(font
@@ -7068,7 +7524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -7095,7 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -7104,7 +7560,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -7223,7 +7679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -7250,7 +7706,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -7259,7 +7715,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 90.17 0)
 			(effects
 				(font
@@ -7405,6 +7861,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "DNP"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8bd2faab-ca0b-4c43-8d3a-1e80c900ec47")
 		)
@@ -7449,7 +7914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 140.97 0)
 			(effects
 				(font
@@ -7476,7 +7941,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 140.97 0)
 			(effects
 				(font
@@ -7485,7 +7950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 140.97 0)
 			(effects
 				(font
@@ -7538,7 +8003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -7565,7 +8030,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -7574,7 +8039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 100.33 0)
 			(effects
 				(font
@@ -7695,7 +8160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -7722,7 +8187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -7731,7 +8196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -7816,7 +8281,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 40.64 22.86 0)
 			(effects
 				(font
@@ -7895,8 +8360,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5301777"
+		(property "LCSC Part" ""
 			(at 228.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5301777"
+			(at 228.6 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -8042,7 +8516,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -8051,7 +8525,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -8104,7 +8578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 100.33 0)
 			(effects
 				(font
@@ -8131,7 +8605,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 100.33 0)
 			(effects
 				(font
@@ -8140,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 100.33 0)
 			(effects
 				(font
@@ -8193,7 +8667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -8220,7 +8694,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -8229,7 +8703,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -8322,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 140.97 0)
+		(at 226.06 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8805,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cc6ffba-584d-4c62-a5a9-3776e713ffb8")
 		(property "Reference" "#PWR00"
-			(at 226.06 147.32 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 145.5324 0)
+			(at 226.06 126.4824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 140.97 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 140.97 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8367,7 +8841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 140.97 0)
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -8443,7 +8917,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -8452,7 +8926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -8505,7 +8979,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -8532,7 +9006,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -8541,7 +9015,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -8594,7 +9068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -8621,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -8630,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -8683,7 +9157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -8710,7 +9184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -8719,7 +9193,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -8772,7 +9246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -8799,7 +9273,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -8808,7 +9282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 140.97 0)
 			(effects
 				(font
@@ -8885,7 +9359,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5291740"
+		(property "LCSC Part" ""
 			(at 82.55 63.5 0)
 			(effects
 				(font
@@ -8992,7 +9466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -9019,7 +9493,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -9028,7 +9502,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 110.49 0)
 			(effects
 				(font
@@ -9081,7 +9555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -9108,7 +9582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -9117,7 +9591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 130.81 0)
 			(effects
 				(font
@@ -9136,6 +9610,158 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571c1b30-c7e8-45d1-96fa-81999db2d03a")
+		(property "Reference" "#PWR017"
+			(at 226.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 108.7024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ed6a8a9-5c46-4bae-bd46-6cbd2df1808b")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57c5824f-b232-4521-831e-7a2f1fc0ee7b")
+		(property "Reference" "R11"
+			(at 159.1269 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 159.362 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 161.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c275cf57-8aed-42d8-ad9e-033991229fca")
+		)
+		(pin "2"
+			(uuid "abfdabfc-2e23-48e2-9b9b-4abcb96c6740")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -9323,7 +9949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -9350,7 +9976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -9359,7 +9985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -9412,7 +10038,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -9439,7 +10065,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -9448,7 +10074,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 110.49 0)
 			(effects
 				(font
@@ -9467,6 +10093,73 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 222.25 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64fa542b-aa40-4b60-a057-ecbd5cdd3533")
+		(property "Reference" "#PWR016"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 222.25 124.1369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 222.25 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7194e5fe-6254-44dd-bc3f-3a9d6b5ef186")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9501,7 +10194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -9528,7 +10221,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -9537,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -9622,7 +10315,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -9707,7 +10400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -9760,7 +10453,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -9787,7 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -9796,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 120.65 0)
 			(effects
 				(font
@@ -9849,7 +10542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 161.29 0)
 			(effects
 				(font
@@ -9876,7 +10569,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 161.29 0)
 			(effects
 				(font
@@ -9885,7 +10578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 161.29 0)
 			(effects
 				(font
@@ -9938,7 +10631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 151.13 0)
 			(effects
 				(font
@@ -9965,7 +10658,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 151.13 0)
 			(effects
 				(font
@@ -9974,7 +10667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 151.13 0)
 			(effects
 				(font
@@ -10027,7 +10720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -10054,7 +10747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -10063,7 +10756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -10169,6 +10862,72 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
+		(at 170.18 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74786408-97ac-4a35-b633-b7646639bfcc")
+		(property "Reference" "#PWR018"
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 170.18 26.3469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 170.18 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849a96ca-8f7d-4e5a-91cf-b2750f896717")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
 		(at 40.64 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10262,7 +11021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 140.97 0)
 			(effects
 				(font
@@ -10289,7 +11048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 140.97 0)
 			(effects
 				(font
@@ -10298,7 +11057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 140.97 0)
 			(effects
 				(font
@@ -10383,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 105.41 35.56 0)
 			(effects
 				(font
@@ -10436,7 +11195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 120.65 0)
 			(effects
 				(font
@@ -10463,7 +11222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 123.19 120.65 0)
 			(effects
 				(font
@@ -10472,7 +11231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 123.19 120.65 0)
 			(effects
 				(font
@@ -10592,7 +11351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -10619,7 +11378,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -10628,7 +11387,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -10713,7 +11472,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 60.96 48.26 0)
 			(effects
 				(font
@@ -10792,8 +11551,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5301777"
+		(property "LCSC Part" ""
 			(at 228.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5301777"
+			(at 228.6 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +11610,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 110.49 0)
 			(effects
 				(font
@@ -10869,7 +11637,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 110.49 0)
 			(effects
 				(font
@@ -10878,7 +11646,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 110.49 0)
 			(effects
 				(font
@@ -10963,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 105.41 48.26 0)
 			(effects
 				(font
@@ -11016,7 +11784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -11043,7 +11811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -11052,7 +11820,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -11105,7 +11873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 100.33 0)
 			(effects
 				(font
@@ -11132,7 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 100.33 0)
 			(effects
 				(font
@@ -11141,7 +11909,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 100.33 0)
 			(effects
 				(font
@@ -11194,7 +11962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -11221,7 +11989,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -11230,7 +11998,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 140.97 0)
 			(effects
 				(font
@@ -11283,7 +12051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -11310,7 +12078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -11319,7 +12087,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 140.97 0)
 			(effects
 				(font
@@ -11372,7 +12140,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -11399,7 +12167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -11408,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -11487,8 +12255,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5301777"
+		(property "LCSC Part" ""
 			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5301777"
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,7 +12314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -11564,7 +12341,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -11573,7 +12350,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -11626,7 +12403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -11653,7 +12430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -11662,7 +12439,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -11715,7 +12492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 130.81 0)
 			(effects
 				(font
@@ -11742,7 +12519,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 52.07 130.81 0)
 			(effects
 				(font
@@ -11751,7 +12528,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 52.07 130.81 0)
 			(effects
 				(font
@@ -11804,7 +12581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -11831,7 +12608,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -11840,7 +12617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -11960,7 +12737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 130.81 0)
 			(effects
 				(font
@@ -11987,7 +12764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 130.81 0)
 			(effects
 				(font
@@ -11996,7 +12773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 130.81 0)
 			(effects
 				(font
@@ -12049,7 +12826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -12076,7 +12853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -12085,7 +12862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -12138,7 +12915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 161.29 0)
 			(effects
 				(font
@@ -12165,7 +12942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 161.29 0)
 			(effects
 				(font
@@ -12174,7 +12951,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 161.29 0)
 			(effects
 				(font
@@ -12259,7 +13036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 105.41 50.8 0)
 			(effects
 				(font
@@ -12312,7 +13089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 161.29 0)
 			(effects
 				(font
@@ -12339,7 +13116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 161.29 0)
 			(effects
 				(font
@@ -12348,7 +13125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 161.29 0)
 			(effects
 				(font
@@ -12401,7 +13178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -12428,7 +13205,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -12437,7 +13214,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -12623,7 +13400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -12650,7 +13427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -12659,7 +13436,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 82.55 90.17 0)
 			(effects
 				(font
@@ -12678,6 +13455,91 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c88bc37f-0067-400f-8945-a3396d5dff57")
+		(property "Reference" "R4"
+			(at 216.154 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 222.758 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279210eb-94ed-4bc0-8aca-c7a2e7caf585")
+		)
+		(pin "2"
+			(uuid "f5e0014c-b699-41b6-b86b-fda3f39285ec")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12980,7 +13842,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 34.29 48.26 0)
 			(effects
 				(font
@@ -13033,7 +13895,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -13060,7 +13922,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -13069,7 +13931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -13122,7 +13984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -13149,7 +14011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -13158,7 +14020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 120.65 0)
 			(effects
 				(font
@@ -13396,7 +14258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 105.41 45.72 0)
 			(effects
 				(font
@@ -13449,7 +14311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 62.23 151.13 0)
 			(effects
 				(font
@@ -13476,7 +14338,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 62.23 151.13 0)
 			(effects
 				(font
@@ -13485,7 +14347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 62.23 151.13 0)
 			(effects
 				(font
@@ -13571,7 +14433,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23182"
+		(property "LCSC Part" ""
 			(at 60.96 53.34 0)
 			(effects
 				(font
@@ -13624,7 +14486,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -13651,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -13660,7 +14522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -13739,8 +14601,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5301777"
+		(property "LCSC Part" ""
 			(at 228.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5301777"
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13789,7 +14660,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -13816,7 +14687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -13825,7 +14696,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -13914,7 +14785,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -14102,7 +14973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 92.71 151.13 0)
 			(effects
 				(font
@@ -14129,7 +15000,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C434445"
+		(property "LCSC" "C84256"
 			(at 92.71 151.13 0)
 			(effects
 				(font
@@ -14138,7 +15009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C434445"
+		(property "LCSC Part" ""
 			(at 92.71 151.13 0)
 			(effects
 				(font
