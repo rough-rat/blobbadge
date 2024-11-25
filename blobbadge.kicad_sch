@@ -2052,12 +2052,6 @@
 		(uuid "56c656a5-bef2-4e64-8ae9-2e00fab24661")
 	)
 	(junction
-		(at 30.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5866ea86-e019-4882-8ac6-e7398a0f7783")
-	)
-	(junction
 		(at 204.47 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2550,16 +2544,6 @@
 			(type default)
 		)
 		(uuid "0110f402-f083-4c78-98f6-90605cde72c2")
-	)
-	(wire
-		(pts
-			(xy 30.48 52.07) (xy 35.56 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02197719-5fbb-490b-b6aa-460be3b0e90b")
 	)
 	(wire
 		(pts
@@ -3783,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 52.07) (xy 19.05 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6414b53f-cfa7-4ebc-a298-bca99b7bcde7")
-	)
-	(wire
-		(pts
 			(xy 252.73 147.32) (xy 257.81 147.32)
 		)
 		(stroke
@@ -3830,26 +3804,6 @@
 			(type default)
 		)
 		(uuid "6620c0ce-ca63-4de7-a89b-8f4a34fda1ab")
-	)
-	(wire
-		(pts
-			(xy 30.48 50.8) (xy 30.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6690f27c-fbc0-4c3b-bbd3-a290da5bbca7")
-	)
-	(wire
-		(pts
-			(xy 29.21 52.07) (xy 30.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66bda58e-4739-4709-96dd-f64b63745775")
 	)
 	(wire
 		(pts
@@ -4150,16 +4104,6 @@
 			(type default)
 		)
 		(uuid "80cce33f-e216-4ec9-9109-e75a35f33b27")
-	)
-	(wire
-		(pts
-			(xy 30.48 43.18) (xy 30.48 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82383acf-6e0a-4125-b9c8-e353404f1e7f")
 	)
 	(wire
 		(pts
@@ -4743,16 +4687,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 58.42) (xy 16.51 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b05c2e3e-0e55-4493-be16-b94a1a14043d")
-	)
-	(wire
-		(pts
 			(xy 194.31 110.49) (xy 194.31 106.68)
 		)
 		(stroke
@@ -4880,16 +4814,6 @@
 			(type default)
 		)
 		(uuid "bbbd2b43-4a2c-41c4-b32e-1dbf35493697")
-	)
-	(wire
-		(pts
-			(xy 30.48 58.42) (xy 30.48 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe702a5-c039-4e94-ae78-9d0ae6bcf7df")
 	)
 	(wire
 		(pts
@@ -6111,17 +6035,6 @@
 		)
 		(uuid "a7b00b88-906d-47c2-bac3-23a167e480cc")
 	)
-	(label "nRST"
-		(at 35.56 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9609ec0-1b3e-4338-ad24-61197b12b1a0")
-	)
 	(label "LED0"
 		(at 66.04 39.37 180)
 		(fields_autoplaced yes)
@@ -7298,72 +7211,6 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 30.48 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24d037d0-3f83-4e55-82da-c1d0bd6f10be")
-		(property "Reference" "#PWR08"
-			(at 30.48 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 30.48 39.0469 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 30.48 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "598c2438-67b7-4c15-aa1d-8b7a01fe38ac")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9586,92 +9433,6 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 30.48 48.26 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aaf0881-41a9-4d72-8b70-3396e3c8f719")
-		(property "Reference" "R1"
-			(at 32.6431 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 32.408 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 30.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 30.48 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6518df0-bba0-43d2-b61d-4463a3e113d2")
-		)
-		(pin "2"
-			(uuid "3e457d9f-f9db-4c2c-84c5-0215cb491357")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12929,162 +12690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 16.51 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d43adb6d-615a-499d-addd-cdaa49098e7b")
-		(property "Reference" "#PWR09"
-			(at 16.51 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 62.8634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 16.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4615f87f-428d-423f-bce6-f91fefe9f10c")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 30.48 54.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d64cc97c-c6bd-44c3-8859-6ef641329f92")
-		(property "Reference" "C1"
-			(at 28.1559 53.7816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 28.1559 56.3185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 30.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b7f79d5-6273-4e39-a5c6-895bf48e7b18")
-		)
-		(pin "2"
-			(uuid "d738b365-64b8-4c0d-8417-ab01ce953904")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 74.93 129.54 270)
 		(mirror x)
@@ -13174,92 +12779,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 24.13 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "defad428-8513-43c4-aa22-500dc8101466")
-		(property "Reference" "SW1"
-			(at 24.13 45.4492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RST"
-			(at 24.13 47.9861 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_FSMSM"
-			(at 24.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "DNP"
-			(at 24.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "DNP"
-			(at 24.13 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d010a92-1ad5-4788-b68d-409dd5ae610f")
-		)
-		(pin "2"
-			(uuid "5813a355-6ef9-430f-9816-ff83165f711c")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 190.5 134.62 270)
 		(mirror x)
@@ -13343,73 +12862,6 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e16e4aeb-85d9-44cf-98d7-60b1c7b6be04")
-		(property "Reference" "#PWR05"
-			(at 30.48 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 62.8634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a0100fd-9b31-43f3-878c-bc43d7df0d0f")
-		)
-		(instances
-			(project "pipebomb"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
