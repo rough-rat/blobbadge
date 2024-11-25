@@ -1932,12 +1932,6 @@
 		(uuid "2bd7c04d-3034-4657-aebf-d3b9c77518c7")
 	)
 	(junction
-		(at 95.25 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dd79729-dbc4-4a1e-9a88-441004057781")
-	)
-	(junction
 		(at 99.06 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3129,7 +3123,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 165.1) (xy 95.25 165.1)
+			(xy 85.09 165.1) (xy 124.46 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5339,16 +5333,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 163.83) (xy 95.25 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de77bffa-91a0-4853-bafa-9bebadba6682")
-	)
-	(wire
-		(pts
 			(xy 262.89 147.32) (xy 265.43 147.32)
 		)
 		(stroke
@@ -5476,16 +5460,6 @@
 			(type default)
 		)
 		(uuid "e9bc5618-492e-4a95-9ea0-a822ab640a92")
-	)
-	(wire
-		(pts
-			(xy 95.25 165.1) (xy 124.46 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ec5b9a-3fd6-4818-a75b-4044587b2d2a")
 	)
 	(wire
 		(pts
@@ -6548,7 +6522,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 177.419 147.5796 90)
 			(effects
 				(font
@@ -6557,7 +6531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 144.78 0)
 			(effects
 				(font
@@ -6904,7 +6878,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 187.579 147.5796 90)
 			(effects
 				(font
@@ -6913,7 +6887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 144.78 0)
 			(effects
 				(font
@@ -7807,7 +7781,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 207.899 137.4196 90)
 			(effects
 				(font
@@ -7816,7 +7790,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 210.82 134.62 0)
 			(effects
 				(font
@@ -8776,7 +8750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 197.739 147.5796 90)
 			(effects
 				(font
@@ -8785,7 +8759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -8865,7 +8839,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 197.739 127.2596 90)
 			(effects
 				(font
@@ -8874,7 +8848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -9285,7 +9259,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 207.899 117.0996 90)
 			(effects
 				(font
@@ -9294,7 +9268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -10230,7 +10204,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 207.899 127.2596 90)
 			(effects
 				(font
@@ -10239,7 +10213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -10645,7 +10619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 177.419 137.4196 90)
 			(effects
 				(font
@@ -10654,7 +10628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -11086,7 +11060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 187.579 117.0996 90)
 			(effects
 				(font
@@ -11095,7 +11069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -11616,7 +11590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 197.739 117.0996 90)
 			(effects
 				(font
@@ -11625,7 +11599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 200.66 114.3 0)
 			(effects
 				(font
@@ -13112,95 +13086,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 95.25 160.02 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de726fb7-19d1-4b6e-a5f4-1e210ca93369")
-		(property "Reference" "D42"
-			(at 92.329 160.3953 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 92.329 162.8196 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84256"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "60dd3a6a-f90f-4750-8a84-75ea78a71a99")
-		)
-		(pin "1"
-			(uuid "12393f16-8d0f-4203-ba6c-3600e86dd888")
-		)
-		(instances
-			(project "blobbadge"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "D42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 74.93 129.54 270)
 		(mirror x)
 		(unit 1)
@@ -13394,7 +13279,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 187.579 137.4196 90)
 			(effects
 				(font
@@ -13403,7 +13288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 134.62 0)
 			(effects
 				(font
@@ -14155,7 +14040,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_WHITE"
 			(at 177.419 127.2596 90)
 			(effects
 				(font
@@ -14164,7 +14049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 180.34 124.46 0)
 			(effects
 				(font
