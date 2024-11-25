@@ -2532,8 +2532,8 @@
 		(uuid "fa508cea-cf49-4b89-9441-4860184ca4a2")
 	)
 	(no_connect
-		(at 265.43 138.43)
-		(uuid "6a6097cd-ae90-4c41-85f6-aeac2cf562ab")
+		(at 68.58 26.67)
+		(uuid "aa384079-3b17-4d14-8c7b-3bce24fe5ed6")
 	)
 	(wire
 		(pts
@@ -3407,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 138.43) (xy 265.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae19027-9e67-4796-ba96-90d47d9b294a")
+	)
+	(wire
+		(pts
 			(xy 110.49 34.29) (xy 113.03 34.29)
 		)
 		(stroke
@@ -3764,16 +3774,6 @@
 			(type default)
 		)
 		(uuid "63340825-3536-4697-beb6-a094bc6ec313")
-	)
-	(wire
-		(pts
-			(xy 252.73 147.32) (xy 257.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6495b203-285b-4909-b2e9-8c083d303882")
 	)
 	(wire
 		(pts
@@ -4194,6 +4194,16 @@
 			(type default)
 		)
 		(uuid "8cb380c6-bf71-4ad5-a71b-a8340f53924f")
+	)
+	(wire
+		(pts
+			(xy 262.89 139.7) (xy 262.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e916476-1da9-495e-8a29-8550613b915b")
 	)
 	(wire
 		(pts
@@ -5197,16 +5207,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 129.54) (xy 254 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db872e3f-cef2-4fc0-9077-0dbb43d406af")
-	)
-	(wire
-		(pts
 			(xy 236.22 54.61) (xy 236.22 58.42)
 		)
 		(stroke
@@ -5738,17 +5738,6 @@
 		)
 		(uuid "0ed8999c-2c7e-4a8b-b18e-c9c62e5abe95")
 	)
-	(label "EXT"
-		(at 252.73 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0f69371f-32ae-47ae-8500-9a25bb32126d")
-	)
 	(label "WLED2"
 		(at 55.88 29.21 180)
 		(fields_autoplaced yes)
@@ -5826,17 +5815,6 @@
 		)
 		(uuid "4f656845-26c8-4714-9176-cbea64e9d5d2")
 	)
-	(label "EXT"
-		(at 68.58 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56f087f2-0e71-434d-995b-8d1e36b055f1")
-	)
 	(label "WLED1"
 		(at 119.38 26.67 0)
 		(fields_autoplaced yes)
@@ -5913,17 +5891,6 @@
 			(justify right bottom)
 		)
 		(uuid "72163153-36c2-42ab-8811-42e00a0fe174")
-	)
-	(label "BUT"
-		(at 254 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74cd5db2-80d7-49f0-99fe-adfb19751e82")
 	)
 	(label "LED1"
 		(at 66.04 41.91 180)
@@ -7873,6 +7840,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "369ff530-dfc6-46a1-98a7-dc30f2ccc326")
+		(property "Reference" "#PWR0100"
+			(at 261.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 134.1024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "451c4f36-6994-4b7b-8894-7b6d4b3f1af2")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SMTSOM215BTR")
 		(at 267.97 147.32 0)
 		(unit 1)
@@ -8750,6 +8784,73 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e8ea72-7915-4d4f-b6f2-3d72e0f093bd")
+		(property "Reference" "#PWR0102"
+			(at 262.89 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 151.8824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b0989f-60c5-415d-8e49-75bb0440787e")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -12507,91 +12608,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 259.08 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c88bc37f-0067-400f-8945-a3396d5dff57")
-		(property "Reference" "R4"
-			(at 255.524 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 262.128 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 259.08 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "279210eb-94ed-4bc0-8aca-c7a2e7caf585")
-		)
-		(pin "2"
-			(uuid "f5e0014c-b699-41b6-b86b-fda3f39285ec")
-		)
-		(instances
-			(project "blobbadge"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 162.56 33.02 0)
 		(mirror y)
@@ -12684,6 +12700,73 @@
 			(project ""
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc8defd1-69e6-44d0-9df6-ab224b73e73e")
+		(property "Reference" "#PWR0101"
+			(at 262.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 144.2624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c4e605-4a8e-4b5e-a19f-a4e870684a9f")
+		)
+		(instances
+			(project "blobbadge"
+				(path "/56472f0f-b501-4745-be4e-714d2b047146"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13032,92 +13115,6 @@
 			(project "blobbadge"
 				(path "/56472f0f-b501-4745-be4e-714d2b047146"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 260.35 147.32 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e68e05bf-36fb-4302-8054-9940e742d849")
-		(property "Reference" "R14"
-			(at 261.62 145.1569 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.81 145.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 260.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 260.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 260.35 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ba7716a-ee4f-4945-b926-44ec7d3c2d20")
-		)
-		(pin "2"
-			(uuid "d13bc02b-9f76-4be7-8119-69c021312a59")
-		)
-		(instances
-			(project "blobbadge"
-				(path "/56472f0f-b501-4745-be4e-714d2b047146"
-					(reference "R14")
 					(unit 1)
 				)
 			)
