@@ -2995,7 +2995,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 156.21) (xy 38.1 194.31)
+			(xy 38.1 156.21) (xy 38.1 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3025,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 134.62) (xy 129.54 134.62)
+			(xy 95.25 134.62) (xy 107.95 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 146.05) (xy 99.06 194.31)
+			(xy 99.06 146.05) (xy 99.06 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3215,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 165.1) (xy 124.46 165.1)
+			(xy 85.09 165.1) (xy 107.95 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 114.3) (xy 129.54 114.3)
+			(xy 95.25 114.3) (xy 107.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 144.78) (xy 129.54 144.78)
+			(xy 95.25 144.78) (xy 107.95 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 156.21) (xy 68.58 194.31)
+			(xy 68.58 156.21) (xy 68.58 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3715,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 129.54 124.46)
+			(xy 95.25 124.46) (xy 107.95 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3945,7 +3945,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 156.21) (xy 48.26 194.31)
+			(xy 48.26 156.21) (xy 48.26 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4185,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 156.21) (xy 78.74 194.31)
+			(xy 78.74 156.21) (xy 78.74 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4365,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 104.14) (xy 129.54 104.14)
+			(xy 95.25 104.14) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4435,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 154.94) (xy 129.54 154.94)
+			(xy 95.25 154.94) (xy 107.95 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +4675,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 58.42 194.31)
+			(xy 58.42 156.21) (xy 58.42 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +5805,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 156.21) (xy 88.9 194.31)
+			(xy 88.9 156.21) (xy 88.9 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5843,7 +5843,7 @@
 		)
 		(uuid "ffa1ee57-69a4-4b9d-8c22-6f4e7b11258a")
 	)
-	(text "r1:\n* initial release\nrev 1.1:\n* add pads for fixture programming and debugging\n* add pullup for reset (accidentally ommited before)\n* update red led resistor values\n* aestethics cleanup\nNotes:\n* LED designators have been resetted accidentally, but in next revisions they will be replaced\nwith RGB most likely. MCU needs replacement too)\n* since SWD is reused for GPIO, firmware shall introduce ~500ms reset before starting to drive while LEDs.\n"
+	(text "r1:\n* initial release\nrev 1.1:\n* add pads for fixture programming and debugging\n* add pullup for reset (accidentally ommited before)\n* update red led resistor values\n* aestethics cleanup\nNotes:\n* LED designators have been resetted accidentally, but in next revisions they will be replaced\nwith RGB most likely.)"
 		(exclude_from_sim no)
 		(at 17.272 70.104 0)
 		(effects
