@@ -15,4 +15,4 @@ The prototype front has been made as green, to speed up / optimize the developme
 
 Proof of concept firmware, freshly rewritten in rust
 
-https://github.com/rough-rat/blobbadge-fw
+https://github.com/rough-rat/blobbadge-rs
